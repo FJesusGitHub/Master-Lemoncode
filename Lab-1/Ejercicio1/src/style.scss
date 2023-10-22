@@ -1,0 +1,44 @@
+@use "base1" as b;
+// @use "base2" as b;
+// @use "base3" as b;
+
+.container-1 {
+  div {
+    background-color: b.$color;
+    margin-bottom: 10px;
+    display: inline-flex;
+    padding: 30px 10px 30px;
+    border-radius: 5px;
+    color: aliceblue;
+  }
+
+  .lighten {
+    &-1 {
+      filter: brightness(120%);
+    }
+    &-2 {
+      filter: brightness(140%);
+    }
+    &-3 {
+      filter: brightness(160%);
+    }
+    &-4 {
+      filter: brightness(180%);
+    }
+  }
+
+  .darken {
+    &-1 {
+      filter: brightness(90%);
+    }
+    &-2 {
+      filter: brightness(80%);
+    }
+    &-3 {
+      filter: brightness(70%);
+    }
+    &-4 {
+      filter: brightness(60%);
+    }
+  }
+}

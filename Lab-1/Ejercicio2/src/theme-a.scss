@@ -1,0 +1,23 @@
+.contenedor-flex > div {
+  border-radius: 7px;
+}
+.base {
+  background-color: aquamarine;
+}
+.important{
+  background-color: rgb(69, 179, 129);
+}
+.warning{
+  background-color: rgb(157, 216, 248);
+}
+.shadow {
+  box-shadow: -10px 10px 12px;
+}
+
+.principal-font {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.secondary-font {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

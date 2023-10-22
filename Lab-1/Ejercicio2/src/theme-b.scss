@@ -1,0 +1,25 @@
+.contenedor-flex > div {
+  border-radius: 15px;
+}
+.base {
+  background-color: rgb(204, 127, 255);
+}
+.important {
+  background-color: rgb(125, 30, 154);
+}
+.warning {
+  background-color: rgb(253, 163, 255);
+}
+
+.shadow {
+  box-shadow: 10px 10px 12px;
+}
+
+.principal-font {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.secondary-font {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

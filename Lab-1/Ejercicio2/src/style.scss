@@ -1,0 +1,26 @@
+@import "theme-a.scss";
+// @import "theme-b.scss";
+
+.contenedor-flex {
+  display: inline-flex;
+  flex-direction: column;
+
+  & > div {
+    font-size: small;
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid gray;
+    text-align: center;
+  }
+
+  .principal-font{
+    font-size:120%;
+    padding-top: 10px;
+    
+  }
+  .secondary-font{
+    font-size:100%;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: inline-grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto-fit;
+}
+
+.grid-container {
+  margin: 20px;
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  padding: 15px 30px 15px 30px;
+  background-color: rgb(224, 224, 224);
+  justify-items: center;
+}
+
+.card-image{
+    display: flex;
+    align-content: flex-end;
+}
+
+
+.card-body {
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: 60px 300px auto auto;
+  border: 2px solid rgb(179, 179, 179);
+  background-color: aliceblue;
+}
+
+.card-title {
+  grid-row: 1 / 2;
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.card-description {
+  grid-row: 2 / 3;
+  padding: 10px;
+  font-size: 95%;
+}
+
+.card-published {
+  grid-row: 3 / 4;
+  font-size: x-small;
+  padding: auto;
+  justify-self: right;
+}
+.card-published::after {
+  font-size: xx-small;
+  color: rgb(109, 182, 0);
+  content: "October 16, 2022";
+}
+
+.card-button {
+  grid-row: 4 / 5;
+  background-color: rgb(109, 182, 0);
+  color: aliceblue;
+  height: 50px;
+  border: none;
+}
